@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Panda-应用程序", "Panda-应用程序", "{155367B6-B4A8-4574-80C4-AA12CE6AE54B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Panda-应用服务", "Panda-应用服务", "{E98EDC3B-F181-44E4-96E1-4CBB5833F0DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Panda-应用公共", "Panda-应用公共", "{44E2ACBC-A020-4B5F-A946-F9F3E4EA3C92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Panda-应用扩展", "Panda-应用扩展", "{B92FB016-2215-4390-A3A2-F7FF99E5D20B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Api", "Panda.Api\Panda.Api.csproj", "{2BD9B638-EBB9-463C-96EA-61746A9FBC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Core", "Panda.Core\Panda.Core.csproj", "{5D0823B9-0434-4E5E-A0AC-9E5742B69DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Service", "Panda.Service\Panda.Service.csproj", "{5382FBE0-7E6C-426B-81DD-995A01C76186}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Common", "Panda.Common\Panda.Common.csproj", "{ABBF9859-FCD7-4951-879D-98BB3AF66479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panda.Extensions", "Panda.Extensions\Panda.Extensions.csproj", "{A2368B20-B57E-404E-885D-29035DCAD650}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BD9B638-EBB9-463C-96EA-61746A9FBC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD9B638-EBB9-463C-96EA-61746A9FBC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD9B638-EBB9-463C-96EA-61746A9FBC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD9B638-EBB9-463C-96EA-61746A9FBC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0823B9-0434-4E5E-A0AC-9E5742B69DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0823B9-0434-4E5E-A0AC-9E5742B69DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0823B9-0434-4E5E-A0AC-9E5742B69DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0823B9-0434-4E5E-A0AC-9E5742B69DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5382FBE0-7E6C-426B-81DD-995A01C76186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5382FBE0-7E6C-426B-81DD-995A01C76186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5382FBE0-7E6C-426B-81DD-995A01C76186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5382FBE0-7E6C-426B-81DD-995A01C76186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBF9859-FCD7-4951-879D-98BB3AF66479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBF9859-FCD7-4951-879D-98BB3AF66479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBF9859-FCD7-4951-879D-98BB3AF66479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBF9859-FCD7-4951-879D-98BB3AF66479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2368B20-B57E-404E-885D-29035DCAD650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2368B20-B57E-404E-885D-29035DCAD650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2368B20-B57E-404E-885D-29035DCAD650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2368B20-B57E-404E-885D-29035DCAD650}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BD9B638-EBB9-463C-96EA-61746A9FBC0A} = {155367B6-B4A8-4574-80C4-AA12CE6AE54B}
+		{5D0823B9-0434-4E5E-A0AC-9E5742B69DA4} = {E98EDC3B-F181-44E4-96E1-4CBB5833F0DC}
+		{5382FBE0-7E6C-426B-81DD-995A01C76186} = {E98EDC3B-F181-44E4-96E1-4CBB5833F0DC}
+		{ABBF9859-FCD7-4951-879D-98BB3AF66479} = {44E2ACBC-A020-4B5F-A946-F9F3E4EA3C92}
+		{A2368B20-B57E-404E-885D-29035DCAD650} = {B92FB016-2215-4390-A3A2-F7FF99E5D20B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97AEE76C-5C2F-4F0B-99BD-A442D3DD4907}
+	EndGlobalSection
+EndGlobal
